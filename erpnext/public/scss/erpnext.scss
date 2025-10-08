@@ -55,7 +55,7 @@
 
 body {
         font-family: var(--erpnext-font-sans);
-        background: linear-gradient(140deg, rgba(79, 70, 229, 0.16) 0%, rgba(14, 165, 233, 0.12) 45%, #fdf2ff 100%);
+        background: linear-gradient(180deg, var(--erpnext-surface-25) 0%, #ffffff 40%, #ffffff 100%);
         color: var(--text-color);
         line-height: 1.6;
         -webkit-font-smoothing: antialiased;
@@ -65,9 +65,9 @@ body[data-route^="desk"],
 body[data-route^="pos"],
 body[data-route^="projects"],
 body[data-route^="crm"] {
-        background: radial-gradient(circle at 18% 18%, rgba(79, 70, 229, 0.28) 0%, rgba(79, 70, 229, 0) 55%),
-                radial-gradient(circle at 85% 5%, rgba(14, 165, 233, 0.25) 0%, rgba(14, 165, 233, 0) 52%),
-                linear-gradient(185deg, rgba(248, 245, 255, 0.95) 0%, #f0f9ff 100%);
+        background: radial-gradient(circle at 20% 20%, rgba(79, 70, 229, 0.12) 0%, transparent 45%),
+                radial-gradient(circle at 80% 0%, rgba(129, 140, 248, 0.18) 0%, transparent 50%),
+                linear-gradient(180deg, var(--erpnext-surface-25) 0%, #ffffff 100%);
 }
 
 a {
@@ -88,7 +88,7 @@ a {
 }
 
 .layout-main-section {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.96) 0%, rgba(248, 245, 255, 0.96) 100%);
+        background: var(--card-bg);
         border-radius: var(--border-radius-xl) var(--border-radius-xl) 0 0;
         box-shadow: var(--erpnext-shadow-lg);
         padding: 2.5rem 2rem;
@@ -107,7 +107,7 @@ a {
 }
 
 .layout-side-section {
-        background: linear-gradient(160deg, rgba(253, 244, 255, 0.9) 0%, rgba(236, 254, 255, 0.9) 100%);
+        background: rgba(255, 255, 255, 0.72);
         backdrop-filter: blur(12px);
         border-radius: var(--border-radius-xl);
         border: 1px solid rgba(148, 163, 184, 0.25);
